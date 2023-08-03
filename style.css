@@ -1,58 +1,140 @@
-/* Reset default styles for the entire page */
-* {
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Apply some basic styles to the body */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.5;
-    background-color: rgb(212, 207, 207);
-    
+    line-height: 1.6;
 }
 
-/* Style the header */
+/* Header */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 1rem;
 }
 
-header nav ul {
+header h1 {
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
 }
 
-header nav ul li {
-    margin: 0 10px;
+nav li {
+    margin-right: 1rem;
 }
 
-header nav ul li a {
+nav a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-/* Style the sections */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Active link */
+nav a:focus {
+    outline: 2px solid #333;
+}
+
+/* Sections */
 section {
-    padding: 50px;
+    padding: 2rem;
 }
 
-section h2 {
-    margin-bottom: 20px;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+#home {
+    background-color: #f2f2f2;
     text-align: center;
 }
 
+#about {
+    background-color: #f9f9f9;
+}
+
+#portfolio {
+    background-color: #f2f2f2;
+}
+
+/* Portfolio Card */
+#portfolio .card {
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#portfolio .card h3 {
+    margin-top: 1rem;
+}
+
+#portfolio .card p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#portfolio .card a {
+    display: block;
+    margin-top: 1rem;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#portfolio .card a:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* CSS for <p class="about-paragraph"> */
+.about-paragraph {
+    margin-bottom: 16px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Apply specific styling for the first paragraph */
+
+
+/* Add some padding around the content of the <section id="about"> */
+#about {
+    padding: 32px;
+
+    }
+
 img {
-    width: 200px;
-    height: 200px;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border: 1px solid #ccc;
 }
