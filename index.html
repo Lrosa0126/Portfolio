@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Welcome to My Portfolio - A showcase of my work and skills.">
+
 </head>
 <body>
     <header>
@@ -22,7 +21,7 @@
 
     <section id="home">
         <h1>Welcome to My Portfolio</h1>
-        <img src="images/Profpic.jpg" alt="Developer's Avatar">
+        <img src="images/Profpic.jpg" alt="Developer's Avatar" class="prof-logo"> <!-- Remove the class="large-logo" from here -->
         <!-- Your home page content goes here -->
     </section>
 
@@ -50,20 +49,49 @@
 
     <section id="portfolio">
         <h2>My Portfolio</h2>
-        <div class="card">
-            <img src="images/Hyperion.png" alt="Hyperion Logo / just the word HYPERION spelled out with nice font">
-            <h3>Project 1</h3>
-            <p>As an enjoyer of cult classic movies, I want to be able to discover and receive recommendations for cult classic movies so that I can easily find and watch interesting films without spending excessive time searching for them, while also seeing their ratings and trailers, all in one place.</p>
-            <a href="searaden.github.io/Project-Hyperion/" target="_blank" rel="noopener noreferrer">View Project</a>
+        <div class="funko-card">
+            <div class="card">
+                <a href="https://rocky-beach-78980-0e26eedfd2e8.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/FunkoFever.png" alt="FunkoFever logo" class="large-logo">
+                    <h3>Project - Funko Fever!</h3>
+                    <p>This project was a simple sales website for Funko Pop collectibles. It can also be used as a static sales website and import other items instead of Funko Pops</p>
+                    <p>View Project</p>
+                </a>
+            </div>
+            </div>
+            <div class="small-cards">
+            <div class="card">
+                <a href="https://searaden.github.io/Project-Hyperion/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/Hyperion.png" alt="Hyperion Logo / just the word HYPERION spelled out with nice font" class="small-logo">
+                    <h3>Project - Hyperio</h3>
+                    <p>As an enjoyer of cult classic movies, I want to be able to discover and receive recommendations for cult classic movies so that I can easily find and watch interesting films without spending excessive time searching for them, while also seeing their ratings and trailers, all in one place.</p>
+                </a>
+            </div>
+            <!-- Add three more cards -->
+            <div class="card">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="images/work.jpg" alt="Beagle on a computer" class="small-logo">
+                    <h3>In progress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dignissimos rerum voluptatem! Explicabo inventore modi ducimus, nam animi iste neque obcaecati non alias vel, quas necessitatibus nesciunt fugiat quidem. Similique!</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="images/work.jpg" alt="Beagle on a computer" class="small-logo">
+                    <h3>In progress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et aut magnam sunt asperiores quisquam error. Earum placeat necessitatibus velit veritatis dolore porro aspernatur recusandae sunt consectetur obcaecati. Est, necessitatibus.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="images/work.jpg" alt="Beagle on a computer" class="small-logo">
+                    <h3>In progress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque, suscipit, delectus optio eum distinctio perspiciatis animi blanditiis, veniam voluptates voluptatum at assumenda libero non nulla cumque accusamus tenetur incidunt.</p>
+                </a>
+            </div>
         </div>
-        <div class="card">
-            <img src="images/FunkoFever.png" alt="FunkoFever logo">
-            <h3>Project 2 - Funko Fever!</h3>
-            <p>This project was a simple sales website for Funko Pop collectibles. It can also be used as a static sales website and import other items instead of Funko Pops</p>
-            <a href="https://rocky-beach-78980-0e26eedfd2e8.herokuapp.com/" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-        <!-- Add more card elements as needed -->
     </section>
+    
 
     <section id="contact">
         <h2>Contact Me</h2>
